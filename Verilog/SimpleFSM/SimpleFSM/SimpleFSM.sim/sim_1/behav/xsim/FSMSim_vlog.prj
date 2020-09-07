@@ -1,0 +1,13 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../SimpleFSM.srcs/sources_1/ip/blk_mem_gen_0/sim/blk_mem_gen_0.v" \
+"../../../../SimpleFSM.srcs/sources_1/ip/Blinker_Div/clock_divider.srcs/sources_1/new/main.v" \
+"../../../../SimpleFSM.srcs/sources_1/ip/Blinker_Div/sim/Blinker_Div.v" \
+"../../../../SimpleFSM.srcs/sources_1/new/mainfsm.v" \
+"../../../../SimpleFSM.srcs/sim_1/new/FSMSim.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

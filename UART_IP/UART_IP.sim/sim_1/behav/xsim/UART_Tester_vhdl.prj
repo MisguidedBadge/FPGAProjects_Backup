@@ -1,0 +1,11 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../UART_IP.srcs/sources_1/ip/Sample_Clock/sources_1/new/Clock_Divider.vhd" \
+"../../../../UART_IP.srcs/sources_1/ip/Sample_Clock/sim/Sample_Clock.vhd" \
+"../../../../UART_IP.srcs/sources_1/ip/Baud_Clock/sim/Baud_Clock.vhd" \
+"../../../../SourceFiles/sources_1/new/UART_Controller.vhd" \
+"../../../../SourceFiles/sources_1/new/UART_Receiver.vhd" \
+"../../../../SourceFiles/sim_1/new/UART_Tester.vhd" \
+
+# Do not sort compile order
+nosort

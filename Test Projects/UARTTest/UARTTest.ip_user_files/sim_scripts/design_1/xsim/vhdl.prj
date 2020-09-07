@@ -1,0 +1,13 @@
+vhdl xil_defaultlib  \
+"../../../../Users/Peter/Desktop/VivadoProjects/UART_IP/UART_IP.srcs/sources_1/ip/Sample_Clock/sources_1/new/Clock_Divider.vhd" \
+"../../../../Users/Peter/Desktop/VivadoProjects/UART_IP/UART_IP.srcs/sources_1/ip/Sample_Clock/sim/Sample_Clock.vhd" \
+"../../../../Users/Peter/Desktop/VivadoProjects/UART_IP/UART_IP.srcs/sources_1/ip/Baud_Clock/sim/Baud_Clock.vhd" \
+"../../../bd/design_1/ipshared/278c/sources_1/new/UART_Receiver.vhd" \
+"../../../bd/design_1/ipshared/278c/sources_1/new/UART_Controller.vhd" \
+"../../../bd/design_1/ip/design_1_UART_Controller_0_1/sim/design_1_UART_Controller_0_1.vhd" \
+"../../../bd/design_1/ip/design_1_system_ila_0_0/bd_0/sim/bd_f60c.vhd" \
+"../../../bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_0/sim/bd_f60c_ila_lib_0.vhd" \
+"../../../bd/design_1/ip/design_1_system_ila_0_0/sim/design_1_system_ila_0_0.vhd" \
+"../../../bd/design_1/sim/design_1.vhd" \
+
+nosort

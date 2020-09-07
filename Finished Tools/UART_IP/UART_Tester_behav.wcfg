@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="UART_Tester_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="UART_Tester" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="39478052096fs"></ZoomStartTime>
+      <ZoomEndTime time="39732983581fs"></ZoomEndTime>
+      <Cursor1Time time="39690495000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="84"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="18" />
+   <wvobject fp_name="/UART_Tester/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/UART_Tester/b_clk" type="logic">
+      <obj_property name="ElementShortName">b_clk</obj_property>
+      <obj_property name="ObjectShortName">b_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/UART_Tester/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/UART_Tester/tx_data" type="array">
+      <obj_property name="ElementShortName">tx_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/UART_Tester/data_in" type="logic">
+      <obj_property name="ElementShortName">data_in</obj_property>
+      <obj_property name="ObjectShortName">data_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/UART_Tester/rx_data" type="array">
+      <obj_property name="ElementShortName">rx_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/UART_Tester/test_signal" type="array">
+      <obj_property name="ElementShortName">test_signal[9:0]</obj_property>
+      <obj_property name="ObjectShortName">test_signal[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/UART_Tester/baud" type="other">
+      <obj_property name="ElementShortName">baud</obj_property>
+      <obj_property name="ObjectShortName">baud</obj_property>
+   </wvobject>
+   <wvobject fp_name="/UART_Tester/data_bits" type="other">
+      <obj_property name="ElementShortName">data_bits</obj_property>
+      <obj_property name="ObjectShortName">data_bits</obj_property>
+   </wvobject>
+   <wvobject fp_name="/UART_Tester/DUT/RECEIVER/data" type="array">
+      <obj_property name="ElementShortName">data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data[7:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/UART_Tester/DUT/RECEIVER/count" type="other">
+      <obj_property name="ElementShortName">count</obj_property>
+      <obj_property name="ObjectShortName">count</obj_property>
+   </wvobject>
+   <wvobject fp_name="/UART_Tester/DUT/RECEIVER/vote" type="other">
+      <obj_property name="ElementShortName">vote</obj_property>
+      <obj_property name="ObjectShortName">vote</obj_property>
+   </wvobject>
+   <wvobject fp_name="/UART_Tester/DUT/RECEIVER/rec_state" type="array">
+      <obj_property name="ElementShortName">rec_state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">rec_state[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/UART_Tester/DUT/RECEIVER/state" type="other">
+      <obj_property name="ElementShortName">state</obj_property>
+      <obj_property name="ObjectShortName">state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/UART_Tester/DUT/RECEIVER/next_state" type="other">
+      <obj_property name="ElementShortName">next_state</obj_property>
+      <obj_property name="ObjectShortName">next_state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/UART_Tester/DUT/RECEIVER/data_bits" type="other">
+      <obj_property name="ElementShortName">data_bits</obj_property>
+      <obj_property name="ObjectShortName">data_bits</obj_property>
+   </wvobject>
+   <wvobject fp_name="/UART_Tester/DUT/RECEIVER/bit_width" type="other">
+      <obj_property name="ElementShortName">bit_width</obj_property>
+      <obj_property name="ObjectShortName">bit_width</obj_property>
+   </wvobject>
+   <wvobject fp_name="/UART_Tester/DUT/RECEIVER/bit_count" type="array">
+      <obj_property name="ElementShortName">bit_count[3:0]</obj_property>
+      <obj_property name="ObjectShortName">bit_count[3:0]</obj_property>
+   </wvobject>
+</wave_config>

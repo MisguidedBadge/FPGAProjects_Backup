@@ -1,0 +1,87 @@
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
+| Date         : Fri Mar  6 20:51:47 2020
+| Host         : DESKTOP-4MULVJR running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file UART_Controller_control_sets_placed.rpt
+| Design       : UART_Controller
+| Device       : xc7a100t
+--------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |     9 |
+|    Minimum number of control sets                        |     9 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |    17 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |     9 |
+| >= 0 to < 4        |     1 |
+| >= 4 to < 6        |     1 |
+| >= 6 to < 8        |     0 |
+| >= 8 to < 10       |     3 |
+| >= 10 to < 12      |     1 |
+| >= 12 to < 14      |     0 |
+| >= 14 to < 16      |     0 |
+| >= 16              |     3 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              19 |            9 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |              64 |           16 |
+| Yes          | No                    | No                     |              16 |            4 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |              36 |           10 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++-----------------------------+----------------------------------------------------------------------------------------------+-------------------------------+------------------+----------------+
+|         Clock Signal        |                                         Enable Signal                                        |        Set/Reset Signal       | Slice Load Count | Bel Load Count |
++-----------------------------+----------------------------------------------------------------------------------------------+-------------------------------+------------------+----------------+
+|  RECEIVER/wr_en_reg_i_2_n_0 |                                                                                              |                               |                1 |              1 |
+|  SAMPLCLK/U0/clk_out_BUFG   | RECEIVER/bit_count                                                                           | RECEIVER/bit_count[3]_i_1_n_0 |                2 |              4 |
+|  clk_IBUF_BUFG              |                                                                                              |                               |                4 |              8 |
+|  clk_IBUF_BUFG              | RECEIVER/RX_FIF/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/grss.rsts/E[0] |                               |                2 |              8 |
+|  clk_IBUF_BUFG              | RECEIVER/RX_FIF/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/E[0] |                               |                2 |              8 |
+|  SAMPLCLK/U0/clk_out_BUFG   |                                                                                              |                               |                4 |             10 |
+|  clk_IBUF_BUFG              |                                                                                              | SAMPLCLK/U0/clear             |                8 |             32 |
+|  SAMPLCLK/U0/clk_out_BUFG   |                                                                                              | RECEIVER/count                |                8 |             32 |
+|  SAMPLCLK/U0/clk_out_BUFG   | RECEIVER/vote                                                                                | RECEIVER/vote[0]_i_1_n_0      |                8 |             32 |
++-----------------------------+----------------------------------------------------------------------------------------------+-------------------------------+------------------+----------------+
+
+

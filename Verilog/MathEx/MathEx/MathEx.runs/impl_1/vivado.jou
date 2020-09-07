@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Thu Jul 16 11:27:32 2020
+# Process ID: 11872
+# Current directory: C:/Users/Peter/Desktop/VivadoProjects/Verilog/MathEx/MathEx/MathEx.runs/impl_1
+# Command line: vivado.exe -log MathEx.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source MathEx.tcl -notrace
+# Log file: C:/Users/Peter/Desktop/VivadoProjects/Verilog/MathEx/MathEx/MathEx.runs/impl_1/MathEx.vdi
+# Journal file: C:/Users/Peter/Desktop/VivadoProjects/Verilog/MathEx/MathEx/MathEx.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source MathEx.tcl -notrace

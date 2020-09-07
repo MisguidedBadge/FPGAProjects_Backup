@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="interface_sim_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="interface_sim" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="554784180fs"></ZoomStartTime>
+      <ZoomEndTime time="554857505fs"></ZoomEndTime>
+      <Cursor1Time time="554829198fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="80"></NameColumnWidth>
+      <ValueColumnWidth column_width="91"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="13" />
+   <wvobject fp_name="/interface_sim/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/interface_sim/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/interface_sim/r_cke" type="logic">
+      <obj_property name="ElementShortName">r_cke</obj_property>
+      <obj_property name="ObjectShortName">r_cke</obj_property>
+   </wvobject>
+   <wvobject fp_name="/interface_sim/r_odt" type="logic">
+      <obj_property name="ElementShortName">r_odt</obj_property>
+      <obj_property name="ObjectShortName">r_odt</obj_property>
+   </wvobject>
+   <wvobject fp_name="/interface_sim/r_rst" type="logic">
+      <obj_property name="ElementShortName">r_rst</obj_property>
+      <obj_property name="ObjectShortName">r_rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/interface_sim/r_cas" type="logic">
+      <obj_property name="ElementShortName">r_cas</obj_property>
+      <obj_property name="ObjectShortName">r_cas</obj_property>
+   </wvobject>
+   <wvobject fp_name="/interface_sim/r_ras" type="logic">
+      <obj_property name="ElementShortName">r_ras</obj_property>
+      <obj_property name="ObjectShortName">r_ras</obj_property>
+   </wvobject>
+   <wvobject fp_name="/interface_sim/r_we" type="logic">
+      <obj_property name="ElementShortName">r_we</obj_property>
+      <obj_property name="ObjectShortName">r_we</obj_property>
+   </wvobject>
+   <wvobject fp_name="/interface_sim/r_cs" type="logic">
+      <obj_property name="ElementShortName">r_cs</obj_property>
+      <obj_property name="ObjectShortName">r_cs</obj_property>
+   </wvobject>
+   <wvobject fp_name="/interface_sim/r_clk" type="logic">
+      <obj_property name="ElementShortName">r_clk</obj_property>
+      <obj_property name="ObjectShortName">r_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/interface_sim/U1/state" type="array">
+      <obj_property name="ElementShortName">state[7:0]</obj_property>
+      <obj_property name="ObjectShortName">state[7:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/interface_sim/U1/next_state" type="array">
+      <obj_property name="ElementShortName">next_state[7:0]</obj_property>
+      <obj_property name="ObjectShortName">next_state[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/interface_sim/U1/counter" type="array">
+      <obj_property name="ElementShortName">counter[63:0]</obj_property>
+      <obj_property name="ObjectShortName">counter[63:0]</obj_property>
+   </wvobject>
+</wave_config>

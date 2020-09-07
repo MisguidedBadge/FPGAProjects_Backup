@@ -1,0 +1,6 @@
+xpm_cdc.sv,systemverilog,xpm,../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv,
+xpm_memory.sv,systemverilog,xpm,../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv,
+xpm_VCOMP.vhd,vhdl,xpm,../../../../../../../../../Xilinx/Vivado/2019.2/data/ip/xpm/xpm_VCOMP.vhd,
+Clock_Divider.vhd,vhdl,xil_defaultlib,../../../../UART_IP.srcs/sources_1/ip/Baud_Clock/sources_1/new/Clock_Divider.vhd,
+Baud_Clock.vhd,vhdl,xil_defaultlib,../../../../UART_IP.srcs/sources_1/ip/Baud_Clock/sim/Baud_Clock.vhd,
+glbl.v,Verilog,xil_defaultlib,glbl.v

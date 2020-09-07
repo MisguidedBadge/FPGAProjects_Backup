@@ -1,0 +1,8 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "c:/Users/Peter/Desktop/VivadoProjects/mig_7series_0_ex/mig_7series_0_ex.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/phy/mig_7series_v4_2_ddr_phy_top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mig_7series_v4_2_ddr_phy_top'
+INFO: [VRFC 10-163] Analyzing VHDL file "c:/Users/Peter/Desktop/VivadoProjects/mig_7series_0_ex/mig_7series_0_ex.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/mig_7series_0_mig_sim.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mig_7series_0_mig'
+INFO: [VRFC 10-163] Analyzing VHDL file "c:/Users/Peter/Desktop/VivadoProjects/mig_7series_0_ex/mig_7series_0_ex.srcs/sources_1/ip/mig_7series_0/mig_7series_0/user_design/rtl/mig_7series_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mig_7series_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "c:/Users/Peter/Desktop/VivadoProjects/mig_7series_0_ex/imports/example_top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'example_top'

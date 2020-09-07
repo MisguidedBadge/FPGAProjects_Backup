@@ -1,0 +1,12 @@
+0.6
+2019.2
+Nov  6 2019
+21:57:16
+C:/Users/Peter/Desktop/VivadoProjects/UART_IP/SourceFiles/sim_1/new/UART_Tester.vhd,1583561420,vhdl,,,,uart_tester,,,,,,,,
+C:/Users/Peter/Desktop/VivadoProjects/UART_IP/SourceFiles/sources_1/ip/rx_fifo/sim/rx_fifo.v,1582076567,verilog,,,,rx_fifo,,,,,,,,
+C:/Users/Peter/Desktop/VivadoProjects/UART_IP/SourceFiles/sources_1/new/UART_Controller.vhd,1583561302,vhdl,,,,uart_controller,,,,,,,,
+C:/Users/Peter/Desktop/VivadoProjects/UART_IP/SourceFiles/sources_1/new/UART_Receiver.vhd,1583545485,vhdl,,,,uart_receiver,,,,,,,,
+C:/Users/Peter/Desktop/VivadoProjects/UART_IP/UART_IP.sim/sim_1/behav/xsim/glbl.v,1573089660,verilog,,,,glbl,,,,,,,,
+C:/Users/Peter/Desktop/VivadoProjects/UART_IP/UART_IP.srcs/sources_1/ip/Baud_Clock/sim/Baud_Clock.vhd,1583288991,vhdl,,,,baud_clock,,,,,,,,
+C:/Users/Peter/Desktop/VivadoProjects/UART_IP/UART_IP.srcs/sources_1/ip/Sample_Clock/sim/Sample_Clock.vhd,1583288932,vhdl,,,,sample_clock,,,,,,,,
+C:/Users/Peter/Desktop/VivadoProjects/UART_IP/UART_IP.srcs/sources_1/ip/Sample_Clock/sources_1/new/Clock_Divider.vhd,1583288932,vhdl,,,,clock_divider,,,,,,,,
